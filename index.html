@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="tr">
   <head>
     <meta charset="UTF-8" />
@@ -8,57 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="site-header">
-      <div class="container nav">
-        <a href="#home" class="brand">Kerem Demir</a>
-      </div>
-    </header>
-
-    <main id="home">
-      <section class="hero">
-        <div class="container hero-inner">
-          <div class="hero-copy">
-            <p class="eyebrow">Merhaba, ben</p>
-            <h1>Kerem Demir</h1>
-            <p class="lead">Web tasarımı ve dijital içerik alanında çalışmalar yapıyorum.</p>
-            <div class="actions">
-              <a class="btn primary" href="https://drmvolkandemir.com" target="_blank" rel="noreferrer">drmvolkandemir.com</a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section">
-        <div class="container section-head">
-          <p class="eyebrow">Projeler</p>
-          <h2>Çalışmalarım</h2>
-        </div>
-
-        <div class="container projects-grid">
-          <article class="project-card featured">
-            <div class="project-badge">Proje</div>
-            <h3>drmvolkandemir.com</h3>
-            <p>Yaptığım çalışmanın yer aldığı profesyonel web sitesi.</p>
-            <div class="project-links">
-              <a href="https://drmvolkandemir.com" target="_blank" rel="noreferrer">Siteyi aç</a>
-            </div>
-          </article>
-        </div>
-      </section>
-    </main>
-
-    <footer class="site-footer">
-      <div class="container footer-inner">
-        <div>
-          <h3>Kerem Demir</h3>
-          <p>© <span id="year"></span> Tüm hakları saklıdır.</p>
-        </div>
-      </div>
-    </footer>
-
-    <script src="script.js"></script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
